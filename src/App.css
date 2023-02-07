@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.editor {
+  border-right: 2px solid black;
+  flex-basis: 49%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center
+}
+
+.preview {
+  padding: 0 3px;
+  flex-basis: 50%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.editor-input {
+  height: 100%;
+  width: 100%;
+}
